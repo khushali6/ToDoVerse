@@ -3,6 +3,7 @@ ToDoVerse is a web application which manages daily task of developers and studen
 **http://todoverse.herokuapp.com/**
 
 ## Usage<br/>
+ToDoVerse helps you to configure your daily tasks
 To run the app use the following command<br/>
 ``` python manage.py runserver```<br/>
 Then go to the browser and enter the url **http://127.0.0.1:8000/**<br/>
