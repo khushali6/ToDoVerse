@@ -9,7 +9,11 @@
         "use": "@vercel/static-build",
         "config": { "distDir": "staticfiles_build",
         "outputDirectory": "staticfiles_build"
- }
+ },
+      "hooks": {
+        "build": "pip install --upgrade pip && python manage.py collectstatic --noinput"
+      }
+
     }],
     "routes": [
         {
